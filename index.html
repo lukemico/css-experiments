@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="content">
-        <img src="images/img_snow (1).jpg" alt="Bear" style="width:100%">
+        <img src="images/mountains.jpg" alt="Bear" style="width:100%">
         <h3>Some Other Work</h3>
         <p>Lorem ipsum..</p>
       </div>
@@ -437,13 +437,49 @@
 <h2 style="text-align:center">Drag and Drop Section</h2>
 <p style="text-align:center">Drag the LOGO image into the rectangle:</p>
 <br>
-<div id="dragDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="row">
+    <div class="main">
+      <div class="column-33">
+          <div class="card">
+              <img src="images/team1.jpg" alt="John" style="width:100%">
+          </div>
+      </div>
+      <div class="column-33">
+          <div class="card">
+              <img src="images/team1.jpg" alt="John" style="width:100%">
+          </div>
+      </div>
+      <div class="column-33">
+          <div class="card">
+              <img src="images/team1.jpg" alt="John" style="width:100%">
+          </div>
+      </div>
+    </div>   
+  </div> 
+<div class="row">
+  <div class="main">
+    <div class="column-33">
+        <div class="card">
+          <div id="dragDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </div>
+    <div class="column-33">
+        <div class="card">
+            <div id="dragDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </div>
+    <div class="column-33">
+        <div class="card">
+            <div id="dragDrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </div>
+  </div>   
+</div> 
+
 <br>
-<img id="drag1" src="images/img_snow.jpg" draggable="true" ondragstart="drag(event)" width="336" height="224">
-
-
+<img id="drag1" src="images/team1.jpg" draggable="true" ondragstart="drag(event)" width="100%" ">
 <hr>
-<hr>
+
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
