@@ -191,11 +191,11 @@ function showPosition(position) {
 		position.coords.longitude;
 }
 
-// function showPosition(position) {
-//   var latlon = position.coords.latitude + "," + position.coords.longitude;
+function showPosition(position) {
+  var latlon = position.coords.latitude + "," + position.coords.longitude;
 
-//   var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
-//   "+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_:KEY";
+  var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
+  "+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_:KEY";
 
-//   document.getElementById("demo").innerHTML = "<img src='"+img_url+"'>";
-// }
+  document.getElementById("demo").innerHTML = "<img src='"+img_url+"'>";
+}
