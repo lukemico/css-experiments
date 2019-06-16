@@ -123,9 +123,11 @@ img {
 
 /* Image Grid */
 
-.header {
+.header-image-grid {
 	text-align: center;
 	padding: 32px;
+	background-color: white;
+	color: black;
 }
 
 .row {
